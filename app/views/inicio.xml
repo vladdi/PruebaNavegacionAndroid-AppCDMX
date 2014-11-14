@@ -1,0 +1,11 @@
+<Alloy>
+	<Tab title="Inicio">
+		<Window>
+			<ImageView id="image_inicio"></ImageView>
+			<View>
+				<ImageView id="image_tres"></ImageView>	
+			</View>
+			<Label>INICIO</Label>
+		</Window>
+	</Tab>
+</Alloy>

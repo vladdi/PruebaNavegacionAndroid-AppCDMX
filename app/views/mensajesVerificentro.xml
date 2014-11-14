@@ -1,0 +1,27 @@
+<Alloy>
+	<Window id="winVerificentro">
+		
+		<ActionBar displayHomeAsUp="true" id="actionbar" platform="android" title="Mensajes" subtitle="Volver" onHomeIconItemSelected="regresar" />
+		
+		<ScrollableView id="scrollableView" showPagingControl="true">
+
+			<View id="view1" backgroundColor="#123">
+            	<Label>VERIFICENTRO</Label>
+            	<View id="viewImagen">
+					<ImageView id="image_tres"></ImageView>	
+				</View>
+				<WebView></WebView>
+            </View>
+            
+            <View id="view2" backgroundColor="#246">
+            	 <Label>View 2</Label>
+            </View>
+            
+            <View id="view3" backgroundColor="#48b">
+            	 <Label>View 3</Label>
+            </View>
+            
+		</ScrollableView>
+		
+	</Window>
+</Alloy>

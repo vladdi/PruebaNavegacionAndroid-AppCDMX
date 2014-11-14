@@ -1,0 +1,21 @@
+"Window":{
+	layout : "vertical"	
+},
+
+"#image_inicio": {
+	image : "/images/smart_cdmx.png",
+	width : Ti.Platform.displayCaps.platformWidth
+},
+
+"#image_tres": {
+	image : "/images/de_tres.png",
+	height : Titanium.UI.SIZE,
+	width : Titanium.UI.SIZE,
+	left : "80%"
+}
+
+"View": {
+	layout: "horizotal",
+	width : Titanium.UI.SIZE,
+	height : Titanium.UI.SIZE 
+}

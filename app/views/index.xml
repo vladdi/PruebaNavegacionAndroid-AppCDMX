@@ -1,0 +1,8 @@
+<Alloy>
+	<TabGroup>
+		<Require src="inicio" />
+		<Require src="agenda" />
+		<Require src="mensajes" />
+		<Require src="configuracion" />
+	</TabGroup>
+</Alloy>

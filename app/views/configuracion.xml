@@ -1,0 +1,21 @@
+<Alloy>
+	<Tab title="Configuracion">
+		<Window id="winConfiguracion">
+			<Label>CONFIGURACIÓN</Label>
+			<View>
+				<ImageView id="image_tres"></ImageView>	
+			</View>
+		    <ListView id="listConfiguracion" onItemclick="enviarMenu">
+				<ListSection name="elements">
+					<ListItem title="Seleccione un elemento a editar"/>
+					<ListItem title="Información Personal" />
+					<ListItem title="Información de mi auto"/>
+					<ListItem title="Elementos de Mosaico"/>
+					<ListItem title="Acerca de CDMX"/>
+					<ListItem title=" "/>
+					<ListItem title="aquí va SWITCH"/>
+				</ListSection>
+			</ListView>
+		</Window>
+	</Tab>
+</Alloy>

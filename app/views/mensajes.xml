@@ -1,0 +1,19 @@
+<Alloy>
+	<Tab title="Mensajes">
+		<Window id="winMensajes">
+			<Label>MENSAJES</Label>
+			<View>
+				<ImageView id="image_tres"></ImageView>	
+			</View>
+			<ListView id="listMensajes" onItemclick="enviarMenu">
+				<ListSection name="elements">
+					<ListItem title="Hanniel esto te puede interesar"/>
+					<ListItem title="Este mes verifica tu auto"/>
+					<ListItem title="30% menos en tu predial"/>
+					<ListItem title=" "/>
+					<ListItem title="Tu puedes elegir los mensajes que recibes en configuracion"/>
+				</ListSection>
+			</ListView>
+		</Window>
+	</Tab>
+</Alloy>
